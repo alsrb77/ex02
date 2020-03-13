@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="ex04.html">
+<table>
+<tr>
+	<td>다음 <span style=background-color:peru><b>내용에 맞게 입력</b></span> 하시오<br></td>
+	<td rowspan="4">
+		<img src="우주 이미지1.jfif" width="30%" height="30%">
+	</td>
+</tr>
+
+<tr>
+	<td>전공 분야를 입력하세요.
+
+	<select size="1" name="category">
+	<option value="c1" selected>소프트웨어
+	<option value="c2">하드웨어
+	<option value="c3">인공지능
+	</select><br></td>
+	
+</tr>
+
+<tr>
+	<td>이      름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value=" "><br></td>
+	
+</tr>
+
+<tr>
+	<td>아  이 디&nbsp;&nbsp;<input type="text" value=" "><br></td>
+	
+</tr>
+
+
+<tr>
+	<td>비밀번호&nbsp;<input type="password" value=" " maxlength="10"><br></td>
+	
+</tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+<fieldset>
+	<legend>성별 조사</legend>
+	여성<input type="radio" name="gender" checked="checked">
+	남성<input type="radio" name="gender">
+
+</fieldset>
+
+<fieldset>
+	<legend>취미 조사</legend>	
+	책읽기<input type="checkbox">
+	공부하기<input type="checkbox">
+	책 읽으며 공부하기<input type="checkbox">
+	컴퓨터<input type="checkbox">
+		
+</fieldset>
+
+<fieldset>
+	<legend>하고 싶은 말</legend>
+	<textarea rows="3" cols="50"></textarea>
+</fieldset>
+<input type="submit" value="완료">
+<input type="reset" value="다시작성">
+</form>
+</body>
+</html>
